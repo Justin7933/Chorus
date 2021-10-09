@@ -1,7 +1,7 @@
 # Chorus Overview<p>
 Chorus is a forum based website designed to bring people together and allow them to easily compile their ideas and thoughts into a concise thread.<p>
 ## Tools used 
-####Table of Contents  
+#####Table of Contents  
 #####node.js
 ## Future Development
 Adding categories so that you can choose the certain topic you like. Maybe add public usernames because, for now the post are anonymous.<p>
