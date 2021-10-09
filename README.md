@@ -3,14 +3,14 @@ Chorus is a forum based website designed to bring people together and allow them
 ## Tools used 
   <ul>
     <li><strong>MySql2</strong></li>
-  <li>Handlebars</li>
-  <li>Node</li>
-  <li>Express</li>
-  <li>Sequelize</li>
-  <li>Bcrypt</li>
-  <li>Dotenv</li>
-  <li>Express-Handlebars</li>
-  <li>Express-session</li>
+    <li><strong>Handlebars</strong></li>
+    <li><strong>Node</strong></li>
+    <li><strong>Express</strong></li>
+    <li><strong>Sequelize</strong></li>
+    <li><strong>Bcrypt</strong></li>
+    <li><strong>Dotenv</strong></li>
+    <li><strong>Express-Handlebars</strong></li>
+    <li><strong>Express-session</strong></li>
 </ul>
 ## Future Development
 Adding categories so that you can choose the certain topic you like. Maybe add public usernames because, for now the post are anonymous.<p>
