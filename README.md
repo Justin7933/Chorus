@@ -32,3 +32,4 @@ I can discuss my intrests and hobbies with other people
 *Here* is the slideshow: https://docs.google.com/presentation/d/19u-PQ78I1sMshFCWednHEekMqvNTl6Ao38neBzx9t6U/edit?usp=sharing<p>
 
 ## Screenshots
+Dashboard:![image](https://user-images.githubusercontent.com/84878209/136660694-39a904e1-ce7c-4760-82bd-35920f8506c2.png)
