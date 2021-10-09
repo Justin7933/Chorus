@@ -103,16 +103,16 @@ router.post('/login', async (req, res) => {
       res.status(400).json({ message: 'No user with that username!' });
       return;
     }
-    // Call the instance method as defined in the User model
+   
     const validPassword = userData.checkPassword(req.body.password);
 
-    // if password is invalid (method returns false), return error
+    
     if (!validPassword) {
       res.status(400).json({ message: 'Incorrect password!' });
       return;
     }
     req.session.save(() => {
-      // Declare session variables
+     
       req.session.user_id = userData.id;
       req.session.username = userData.username;
       req.session.loggedIn = true;
@@ -138,12 +138,12 @@ router.post('/logout', (req, res) => {
   }
 });
 
-// Update an existing user
+
 router.put('/:id', withAuth, (req, res) => {
   User.update(req.body, {
-    // Hook to hash only the password
+   
     individualHooks: true,
-    // Use the id as the parameter for the individual user to be updated
+   
     where: {
       id: req.params.id,
     },
