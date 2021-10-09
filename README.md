@@ -2,7 +2,7 @@
 Chorus is a forum based website designed to bring people together and allow them to easily compile their ideas and thoughts into a concise thread.<p>
 ## Tools used 
   <ul>
-  <li>MySql2</li>
+    <li><strong>MySql2</strong></li>
   <li>Handlebars</li>
   <li>Node</li>
   <li>Express</li>
