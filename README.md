@@ -15,8 +15,8 @@
 
 ## links 
 ### Github
-*Here* is the deployed heroku site: 
-*Here* is the repository: 
-*Here* is the slideshow: 
+*Here* is the deployed heroku site:<p>
+*Here* is the repository:<p>
+*Here* is the slideshow:<p>
 
 ## Screenshots
