@@ -1,37 +1,47 @@
-<section class="row">
-    <div class="column d-flex justify-content-center">
-        <div class="card d-flex" style="width: 20rem"> 
-        <h2 class="card-title d-flex">Create New Post</h2>
-
-        <form class="create-form" action="/api/posts" method="POST">
-            <div style="margin-bottom: 10px;">
-                
-                <input type="text" id="title" name="post-title" placeholder="title">
-            </div>
-            <div>
-                
-                <textarea id="post-text" name="post-text" placeholder="post"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Create</button>
-        </form>
+<section>
+    <div class="container">
+        {{!-- header above the form --}}
+        <div class="py-5 text-center col-12">
+            <img class="d-block mx-auto mb-4" src="/img/chorus.png" alt="" width="72" height="72">
+            <h2 class="center-text">Create Thread</h2>
+            <p class="lead">Join the Choir!</p>
         </div>
-    </div>
+        <hr>
+        <div>
+            <div class="py-5 text-center col-12">
+                <h4 class="text-center">Create Thread</h4>
+                <form class="create-form" action="/api/posts" method="POST">
+                    <div style="margin-bottom: 10px;">
 
-    {{#if posts.length}}
-    <section>
-        <h2>Your Posts</h2>
-        <ol>
-            {{#each posts as |post|}}
-            <li>
+                        <input class="col-6 text-center" type="text" id="title" name="post-title" placeholder="Title...">
+                    </div>
+                    <div>
+
+                        <textarea class="col-6 text-center" id="post-text" name="post-text" placeholder="Post..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Create</button>
+            </div>
+        </div>
+</section>
+        <hr>
+
+        {{#if posts.length}}
+        <section>
+            <div class="container">
+            <h2 class="text-center pt-5 pb-3">Your Posts</h2>
+            <ol>
+                {{#each posts as |post|}}
                 {{> post-info post}}
-                <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
-            </li>
-            {{/each}}
-        </ol>
-    </section>
-    {{/if}}
+                <a class="link" href="dashboard/edit/{{id}}">
+                    <button type="button" id="editBtn" class="btn btn-sm mb-3">Edit</button>
+                </a>
+                {{/each}}
+            </ol>
+            </div>
+        </section>
+        {{/if}}
 
-    {{!-- <button type="submit" class="btn"><a class="link" href="/dashboard/new"> New Post</a></button> --}}
+        {{!-- <button type="submit" class="btn"><a class="link" href="/dashboard/new"> New Post</a></button> --}}
 
-    <!--Script to add a post-->
-    <script src="/js/add-post.js"></script>
+        <!--Script to add a post-->
+        <script src="/js/add-post.js"></script>

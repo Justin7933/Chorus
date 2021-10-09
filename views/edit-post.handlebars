@@ -1,15 +1,19 @@
-<article>
-    <a href="/dashboard"> &larr; Back to dashboard</a>
-    <h2>
+<section>
+    <a href="/dashboard" class="btn btn-success m-3"><strong>Return to Dashboard</strong> </a>
+    <div class="py-5 text-center col-12">
+    <h2 class="text-center">
         Edit Post
     </h2>
+    <p class="text-center">Content:</p>
     <form class="edit-post-form">
-        <label class="form-label" for="content">Content</label>
-        <input name="content" type="text" value="{{post.content}}" class="form-input" />
-        <button type="submit" class="btn">Update Post</button>
-        <button type="button" class="delete-post-btn">Delete post</button>
+        <label class="form-label text-center" for="content"></label>
+        <input name="content" type="text" value="{{post.content}}" class="form-input text-center" />
+        <br>
+        <button type="submit" class="btn-warning mt-2">Update Post</button>
+        <button type="button" class="delete-post-btn btn-danger mt-2">Delete post</button>
     </form>
-</article>
+    </div>>
+</section>
 
 <form class="comment-form">
 </form>

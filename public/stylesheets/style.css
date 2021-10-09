@@ -1,15 +1,39 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  body,
-  html {
-    height: 100%;
-    padding: 10px;
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(24, 36, 25);
-  }
-  
- 
+
+#postHeader {
+  background-color: #ff99ff;
+}
+#commentHeader {
+  background-color: #c37ee0;
+}
+.button-primary:hover {
+  background-color: #ff66ff !important;
+}
+
+.btnTextStrong {
+  color: #222222
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+};
+
+
+
+
+.logoWords {
+  color: #5cb85c
+}
+
+.btn-success {
+  background-color: #ff99ff;
+  border: none;
+};
+
+
+.btn-success:focus {
+
+  background-color: #ec008b
+
+};
+
