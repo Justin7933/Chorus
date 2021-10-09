@@ -11,7 +11,7 @@ Chorus is a forum based website designed to bring people together and allow them
     <li><strong>Dotenv</strong></li>
     <li><strong>Express-Handlebars</strong></li>
     <li><strong>Express-session</strong></li>
-</ul>
+</ul><p>
 ## Future Development
 Adding categories so that you can choose the certain topic you like. Maybe add public usernames because, for now the post are anonymous.<p>
 
