@@ -27,7 +27,7 @@ I can discuss my intrests and hobbies with other people
 
 ## links 
 ### Github
-*Here* is the deployed heroku site:<p>
+*Here* is the deployed heroku site:https://boiling-sands-24097.herokuapp.com/<p>
 *Here* is the repository: https://github.com/Justin7933/Chorus<p>
 *Here* is the slideshow: https://docs.google.com/presentation/d/19u-PQ78I1sMshFCWednHEekMqvNTl6Ao38neBzx9t6U/edit?usp=sharing<p>
 
