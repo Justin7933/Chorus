@@ -3,8 +3,8 @@ Chorus is a forum based website designed to bring people together and allow them
 ## Tools used 
   <ul>
     <li><strong>MySql2</strong></li>
-    <li><strong>Handlebars</strong></li>
-    <li><strong>Node</strong></li>
+    <li><strong>Handlebars.js</strong></li>
+    <li><strong>Node.js</strong></li>
     <li><strong>Express</strong></li>
     <li><strong>Sequelize</strong></li>
     <li><strong>Bcrypt</strong></li>
