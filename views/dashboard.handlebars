@@ -1,0 +1,37 @@
+<section class="row">
+    <div class="column d-flex justify-content-center">
+        <div class="card d-flex" style="width: 20rem"> 
+        <h2 class="card-title d-flex">Create New Post</h2>
+
+        <form class="create-form" action="/api/posts" method="POST">
+            <div style="margin-bottom: 10px;">
+                
+                <input type="text" id="title" name="post-title" placeholder="title">
+            </div>
+            <div>
+                
+                <textarea id="post-text" name="post-text" placeholder="post"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Create</button>
+        </form>
+        </div>
+    </div>
+
+    {{#if posts.length}}
+    <section>
+        <h2>Your Posts</h2>
+        <ol>
+            {{#each posts as |post|}}
+            <li>
+                {{> post-info post}}
+                <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+            </li>
+            {{/each}}
+        </ol>
+    </section>
+    {{/if}}
+
+    {{!-- <button type="submit" class="btn"><a class="link" href="/dashboard/new"> New Post</a></button> --}}
+
+    <!--Script to add a post-->
+    <script src="/js/add-post.js"></script>
