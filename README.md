@@ -3,7 +3,7 @@ Chorus is a forum based website designed to bring people together and allow them
 ## Tools used 
 
 ## Future Development
-Adding categories so that you can choose the certain topic you like.Maybe add public usernames because, for now the post are anonymous.<p>
+Adding categories so that you can choose the certain topic you like. Maybe add public usernames because, for now the post are anonymous.<p>
 
 ## User-Story 
 ### As A 
