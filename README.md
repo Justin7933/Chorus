@@ -19,6 +19,6 @@ I can discuss my intrests and hobbies with other people
 ### Github
 *Here* is the deployed heroku site:<p>
 *Here* is the repository:<p>
-*Here* is the slideshow:https://docs.google.com/presentation/d/19u-PQ78I1sMshFCWednHEekMqvNTl6Ao38neBzx9t6U/edit?usp=sharing<p>
+*Here* is the slideshow: https://docs.google.com/presentation/d/19u-PQ78I1sMshFCWednHEekMqvNTl6Ao38neBzx9t6U/edit?usp=sharing<p>
 
 ## Screenshots
